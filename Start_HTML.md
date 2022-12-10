@@ -23,10 +23,16 @@
     <title>상품 소개 페이지</title>
     <style>
         table, th, td {
-            border:1px solid #ccc;
+            border:1px solid lightcoral;
             border-collapse: collapse;
         }
         th, td { padding:10px 20px; }
+        th {
+            background-color:lightcoral;
+        }
+        td {
+            background-color:lightsalmon;
+        }
     </style>
 </head>
 <body>
