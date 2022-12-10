@@ -1,4 +1,4 @@
-# HTML 시작
+# HTML 기초
 ```html
 <!DOCTYPE html>
 <html lang="ko">
