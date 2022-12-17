@@ -105,3 +105,34 @@
     </body>
 </html>
 ```
+* 선택 박스 만들기
+```html
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <body>
+            <h1>레드향 주문하기</h1>
+            <fieldset>상품 선택</fieldset>
+            <p><b>주문할 상품을 선택해 주세요</b></p>
+            <ul>
+                <li>
+                    <label><input type="checkbox" value="s_3">선물용 3kg</label>
+                    <input type="number"개>
+                </li>
+                <li>
+                    <label><input type="checkbox" value="s_5">선물용 5kg</label>
+                    <input type="number"개>
+                </li>
+                <li>
+                    <label><input type="checkbox" value="s_3">가정용 3kg</label>
+                    <input type="number"개>
+                </li>
+                <li>
+                    <label><input type="checkbox" value="s_5">가정용 5kg</label>
+                    <input type="number"개>
+                </li>
+            </ul>
+        </body>
+    </head>
+</html>
+```
