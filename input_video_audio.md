@@ -1,4 +1,4 @@
-# 오디오 파일, 비디오 파일 집어넣기 + 목록, 선택지 만들기
+# 오디오 파일, 비디오 파일 집어넣기, 하이퍼 링크  + 목록, 선택지 만들기
 * 이전 레드향 파일에 오디오와 비디오 덧붙이기
 * 파일 속에 들어있어야 함
 ```html
@@ -52,6 +52,8 @@
     </div>
     <div id="container">
         <h2>상품 구성</h2>
+        <p><a href="file:///C:/Users/user/Desktop/Web%20Pro/check.html">레드향 구매 미리보기</a></p>
+        <a href="https://smartstore.naver.com/inhane/products/6419770126?gclid=CjwKCAiAy_CcBhBeEiwAcoMRHM2C_K-su9bnIeWBszBrY1c6qeOhllqg6LOZzI7J4zf0Khd304mqKRoCOe8QAvD_BwE"><p>레드향 구매하기 -></p><img src="레드향.jpg" alt="레드향"></a>
         <table>
             <caption>선물용과 가정용 상품 구성</caption>
             <tr>
