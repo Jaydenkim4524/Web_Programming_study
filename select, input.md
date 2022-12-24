@@ -1,4 +1,5 @@
 # 목록 만들기
+* select를 이용한 목록 만들기
 ```html
 <!DOCTYPE html>
 <html lang="ko">
