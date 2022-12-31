@@ -71,3 +71,11 @@ ol{
     color:rgb(0, 0, 0)
 }
 ```
+* container로 div를 통해 나눌 수 있고,
+```html
+#container{
+width: 500px
+}
+```
+* 와 같이 속성값을 입힐 수 있음
+* accent는 클래스와 같은 의미로 
