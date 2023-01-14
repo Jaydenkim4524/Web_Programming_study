@@ -149,3 +149,34 @@
 </body>
 </html>
 ```
+* 상자 꾸미기: shadow, radius 등등
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid #000;
+            margin-bottom: 20px;
+            width: 200px;
+            height: 100px;
+            border-radius: 1000000000000000000000000000000000000000000000000px;
+        }
+        .box {
+                box-shadow: 4px -5px 10px 6px rgb(146, 0, 0);
+            }
+        .box2 {
+           box-shadow: 4px -5px 10px 6px rgb(35, 0, 160);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+</body>
+</html>
+```
