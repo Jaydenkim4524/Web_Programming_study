@@ -164,7 +164,6 @@
             margin-bottom: 20px;
             width: 200px;
             height: 100px;
-            border-radius: 1000000000000000000000000000000000000000000000000px;
         }
         .box {
                 box-shadow: 4px -5px 10px 6px rgb(146, 0, 0);
