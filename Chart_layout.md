@@ -1,0 +1,61 @@
+# 텍스트를 표현하는 다양한 스타일
+* 이전에 배운 table을 사용하면 표 형태가 되지 않았지만, css를 사용하면 표의 형태를 만들 수 있다.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            caption-side: bottom;
+            border: 1px solid #000;
+        }
+        td, th{
+            border: 1px dotted #000;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>상품 구성</h2>
+    <table>
+        <caption>선물용과 가정용 상품 구성</caption>
+            <tr>
+                <th>용도</th>
+                <th>중량</th>
+                <th>갯수</th>
+                <th>가격</th>
+            </tr>
+            <tr>
+                <td>선물용</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>35,000원</td>
+            </tr>
+            <tr>
+                <td>선물용</td>
+                <td>5kg</td>
+                <td>18~26과</td>
+                <td>52,000원</td>
+            </tr>
+            <tr>
+                <td>가정용</td>
+                <td>3kg</td>
+                <td>11~18과</td>
+                <td>30,000원</td>
+            </tr>
+            <tr>
+                <td>가정용</td>
+                <td>5kg</td>
+                <td>18~26과</td>
+                <td>47,000원</td>
+            </tr>
+    </table>
+</body>
+</html>
+```
+* 이전에 사용했던 레드향의 표에 css를 추가 하였다.
