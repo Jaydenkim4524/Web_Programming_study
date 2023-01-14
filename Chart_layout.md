@@ -179,3 +179,37 @@
 </body>
 </html>
 ```
+* 상자의 테두리를 표현하는 세가지 기법
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid #000;
+            margin-bottom: 20px;
+            width: 200px;
+            height: 100px;
+        }
+        #box1{
+            border-style: solid;
+        }
+        #box2{
+            border-style: dashed;
+        }
+        #box3{
+            border-style: dotted;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+</body>
+</html>
+```
