@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>test1</title>
+
+</head>
+<body>
+
+    <script>
+        document.write("<div>")
+        for (var i = 0; i < 10; i++) {
+            b = i * 2;
+            a = "<div style='display:inline-block;width:20px;height:20px;background:#ff0000;margin-height:50px;margin-left:" + b + "px'></div>";
+            document.write(a)
+        }
+        document.write("</div>")
+        document.write("<div>")
+        for (var i = 10; i > 0; i--) {
+            b = (i-1) * 2;
+            a = "<div style='display:inline-block;width:20px;height:20px;background:#ff0000;margin-height:100px;margin-right:" + b + "px'></div>";
+            document.write(a)
+        }   
+        document.write("</div>")    
+
+    </script>
+</body>
+</html>
